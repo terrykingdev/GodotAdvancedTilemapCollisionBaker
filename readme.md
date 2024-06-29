@@ -34,7 +34,7 @@ Collision Type
 * Rectangle  
 Creates the largest rectangular regions it can. It only handles square collision polygons that cover the whole tile so does not support any form of slope.
 * Polygons  
-Creates polygons that should be able your entire map. It could potentially create extremely detailed polygons which would be very inefficient for the physics engine to use.
+Creates polygons that should be able to handle your entire map. It could potentially create extremely detailed polygons which would be very inefficient for the physics engine to use.
 * Hybrid  
 The default and best option does a rectangle pass and then covers the remaining tiles with a polygon pass.
 
